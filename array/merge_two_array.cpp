@@ -3,17 +3,18 @@ using namespace std;
 
 int main() {
     int m, n;
+
     cout << "Enter size of Array A: ";
     cin >> m;
-    int A[m];
 
+    int A[m];
     cout << "Enter elements of Array A:\n";
     for(int i = 0; i < m; i++) cin >> A[i];
 
     cout << "Enter size of Array B: ";
     cin >> n;
+    
     int B[n];
-
     cout << "Enter elements of Array B:\n";
     for(int i = 0; i < n; i++) cin >> B[i];
 
