@@ -9,7 +9,8 @@ public:
         if (n == 0)
             return rev;
         else
-            return checkPalindrome(n / 10, rev * 10 + n % 10); // recursive call
+            rev = rev * 10 + n % 10;
+            return checkPalindrome(n / 10, rev); // recursive call
     }
 };
 
